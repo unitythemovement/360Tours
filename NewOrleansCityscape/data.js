@@ -44,13 +44,13 @@ var APP_DATA = {
           "yaw": 0.052243358192662015,
           "pitch": 0.372629696672238,
           "title": "Canal Street",
-          "text": "<span class=\"N9Q8Lc\" style=\"border-radius: 0px; background-color: rgb(44, 48, 61); color: rgb(230, 232, 240); font-family: &quot;Google Sans&quot;, Roboto, Arial, sans-serif; font-size: 16px;\">Canal Street is&nbsp;</span><mark class=\"HxTRcb\" jscontroller=\"DfH0l\" jsuid=\"qkHoUc_b\" style=\"color: rgb(238, 240, 255); border-radius: 0px; background: linear-gradient(90deg, rgb(52, 69, 127) 50%, rgba(0, 0, 0, 0) 50%) 75% 0px / 200% 100% no-repeat scroll padding-box border-box rgb(44, 48, 61); padding: 0px 2px; animation: 0.75s cubic-bezier(0.05, 0.7, 0.1, 1) 0.25s 1 normal forwards running highlight-animation; font-family: &quot;Google Sans&quot;, Roboto, Arial, sans-serif; font-size: 16px;\"><span class=\"N9Q8Lc\" style=\"border-radius: 0px;\">a major thoroughfare in New Orleans that serves as a historic dividing line between the French Quarter and the American Sector.&nbsp;</span></mark><span class=\"N9Q8Lc\" style=\"border-radius: 0px; background-color: rgb(44, 48, 61); color: rgb(230, 232, 240); font-family: &quot;Google Sans&quot;, Roboto, Arial, sans-serif; font-size: 16px;\">Originally planned as a canal, it became the city's \"neutral ground\" and is now a vibrant entertainment and business district, famous for its historic streetcars that run along the wide median.</span><span jsuid=\"qkHoUc_c\" class=\"uJ19be notranslate\" jsaction=\"rcuQ6b:&amp;qkHoUc_c|npT2md\" jscontroller=\"udAs2b\" data-wiz-uids=\"qkHoUc_c,qkHoUc_d,qkHoUc_e\" style=\"color: rgb(230, 232, 240); font-family: &quot;Google Sans&quot;, Roboto, Arial, sans-serif; font-size: 16px; background-color: rgb(31, 31, 31);\"><span class=\"vKEkVd\" data-animation-atomic=\"\" style=\"text-wrap-mode: nowrap; position: relative;\">&nbsp;</span></span>"
+          "text": "Canal Street is a major thoroughfare in New Orleans that serves as a historic dividing line between the French Quarter and the American Sector.  Originally planned as a canal, it became the city's neutrual ground and is now a vibrant entertainment and business district, famous for its historic streetcars that run along the wide median."
         },
         {
           "yaw": 2.517951539861838,
           "pitch": 0.12293619529608613,
           "title": "Algiers Point",
-          "text": "Text"
+          "text": "Algiers was established in 1719, making it the second oldest neighborhood in the New Orleans. A quiet suburb on the Mississippi River’s West Bank, Algiers Point is a mix of homey pubs, small art galleries and quaint Creole cottages. Visitors cross via the New Orleans Ferry or the Crescent City Connection Bridge for views over to Jackson Square and the French Quarter."
         }
       ]
     },
