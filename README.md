@@ -7,6 +7,7 @@ Please email **unitylasting@gmail.com** to discuss pricing for panoramic prints,
 - Canvas prints
 - Metal prints
 
+Thank you!
 ---
 
 © All Rights Reserved.
