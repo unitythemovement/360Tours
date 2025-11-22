@@ -45,7 +45,7 @@ var APP_DATA = {
           "yaw": 0.052243358192662015,
           "pitch": 0.372629696672238,
           "title": "Canal Street",
-          "text": "Canal Street is a major thoroughfare in New Orleans that serves as a historic dividing line between the French Quarter and the American Sector.  Originally planned as a canal, it became the city's neutrual ground and is now a vibrant entertainment and business district, famous for its historic streetcars that run along the wide median."
+          "text": "Canal Street is a major thoroughfare in New Orleans that serves as a historic dividing line between the French Quarter and the American Sector.  Originally planned as a canal, it became the city's neutral ground and is now a vibrant entertainment and business district, famous for its historic streetcars that run along the wide median."
         },
         {
           "yaw": 2.517951539861838,
