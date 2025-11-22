@@ -55,7 +55,7 @@ var APP_DATA = {
         },
 {
   "yaw": 2.01,
-  "pitch": 0.0,
+  "pitch": 0.8,
   "title": "French Quarter",
   "text": "The French Quarter, or Vieux Carré, is the oldest neighborhood in New Orleans. Known for its historic architecture, live music, and vibrant nightlife, it stretches along the Mississippi River and centers around Jackson Square and the iconic St. Louis Cathedral."
 }
