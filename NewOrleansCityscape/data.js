@@ -42,7 +42,7 @@ var APP_DATA = {
           "text": "Formerly the Greater New Orleans Bridge, The Crescent City Connection is a pair of cantilever bridges that carry U.S. Highway 90 Business over the Mississippi River in New Orleans, USA.&nbsp; They are tied as the fifth-longest cantilever bridges in the world.&nbsp;"
         },
         {
-          "yaw": 0.05,
+          "yaw": 0.04,
           "pitch": 0.372629696672238,
           "title": "Canal Street",
           "text": "Canal Street is a major thoroughfare in New Orleans that serves as a historic dividing line between the French Quarter and the American Sector.  Originally planned as a canal, it became the city's neutral ground and is now a vibrant entertainment and business district, famous for its historic streetcars that run along the wide median."
