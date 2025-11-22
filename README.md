@@ -1,3 +1,12 @@
-Please email unitylasting@gmail.com to discuss pricing for Panoramic Prints - including paper, acrylic, canvas, and metal. 
+# Panoramic Printing Services
 
-All Rights Reserved.
+Please email **unitylasting@gmail.com** to discuss pricing for panoramic prints, including:
+
+- Paper prints  
+- Acrylic prints  
+- Canvas prints  
+- Metal prints  
+
+---
+
+© All Rights Reserved.
