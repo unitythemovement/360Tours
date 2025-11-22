@@ -1,3 +1,3 @@
-For details pertaining to Panoramic prints (paper, canvas, acrylic, or metal), please contact unitylasting@gmail.com to discuss sizes, mediums, and pricing.
+Please email unitylasting@gmail.com to discuss pricing for Panoramic Prints - including paper, acrylic, canvas, and metal prints.
 
 All Rights Reserved
