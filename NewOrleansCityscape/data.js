@@ -34,6 +34,13 @@ var APP_DATA = {
       },
       "linkHotspots": [],
       "infoHotspots": [
+{
+  "yaw": -0.45,
+  "pitch": 0.18,
+  "title": "French Quarter",
+  "text": "The French Quarter, also known as Vieux Carré, is the oldest neighborhood in New Orleans. It is famous for its historic architecture, vibrant nightlife, jazz music, and cultural landmarks surrounding Jackson Square and Bourbon Street."
+}
+
         {
           "yaw": -1.997901004256951,
           "pitch": 0.02876451237494848,
