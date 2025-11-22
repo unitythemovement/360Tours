@@ -54,7 +54,7 @@ var APP_DATA = {
           "text": "Algiers was established in 1719, making it the second oldest neighborhood in the New Orleans. A quiet suburb on the Mississippi River’s West Bank, Algiers Point is a mix of homey pubs, small art galleries and quaint Creole cottages. Visitors cross via the New Orleans Ferry or the Crescent City Connection Bridge for views over to Jackson Square and the French Quarter."
         },
 {
-  "yaw": 0.31,
+  "yaw": 0.22,
   "pitch": 0.15,
   "title": "French Quarter",
   "text": "The French Quarter, or Vieux Carré, is the oldest neighborhood in New Orleans. Known for its historic architecture, live music, and vibrant nightlife, it stretches along the Mississippi River and centers around Jackson Square and the iconic St. Louis Cathedral."
