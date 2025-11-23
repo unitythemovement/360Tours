@@ -107,7 +107,7 @@ var APP_DATA = {
           "yaw": -0.686203093535001,
           "pitch": 0.20901549061315805,
           "title": "The University of New Orleans",
-          "text": "Text"
+          "text": "The University of New Orleans is a public research university in New Orleans, Louisiana, United States. First opened in 1958 as Louisiana State University in New Orleans, it is the largest public university and one of two doctoral research universities in the Greater New Orleans region."
         },
         {
           "yaw": 2.0228927285611515,
