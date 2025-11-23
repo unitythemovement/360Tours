@@ -223,7 +223,7 @@ var APP_DATA = {
           "yaw": 0.027689155624827322,
           "pitch": 0.37059610492799777,
           "title": "New Orleans Museum of Art",
-          "text": "New Orleans Museum of Art is the city’s oldest find arts institution.  It opened on December 16, 1911, with only nine works of art.  Today, the museum hosts an impressive permanent collection of more than 40,000 objects.  The collection, noted for its extraordinary strengths in French and American art, photography, glass, and African and Japanese works, continues to grow."
+          "text": "Located in City Park, New Orleans Museum of Art is the city’s oldest find arts institution.  It opened on December 16, 1911, with only nine works of art.  Today, the museum hosts an impressive permanent collection of more than 40,000 objects.  The collection, noted for its extraordinary strengths in French and American art, photography, glass, and African and Japanese works, continues to grow."
         },
 {
   "yaw": 2.84,
