@@ -225,12 +225,6 @@ var APP_DATA = {
           "title": "New Orleans Museum of Art",
           "text": "New Orleans Museum of Art is the city’s oldest find arts institution.  It opened on December 16, 1911, with only nine works of art.  Today, the museum hosts an impressive permanent collection of more than 40,000 objects.  The collection, noted for its extraordinary strengths in French and American art, photography, glass, and African and Japanese works, continues to grow."
         }
-{
-  "yaw": 3.14,
-  "pitch": 0.18,
-  "title": "City Park Rear View",
-  "text": "City Park is one of the nation’s oldest urban parks, known for its expansive live oaks, scenic lagoons, and cultural landmarks. The rear view highlights the park’s vast green spaces and natural beauty."
-}
 
       ]
     }
