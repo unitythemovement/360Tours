@@ -162,13 +162,13 @@ var APP_DATA = {
           "yaw": 0.08993551460973137,
           "pitch": 0.6350758962245671,
           "title": "Loyola University New Orleans",
-          "text": "Text"
+          "text": "Loyola University New Orleans is a private Jesuit university in New Orleans, Louisiana. Originally established as Loyola College in 1904, the institution was chartered as a university in 1912. It bears the name of the Jesuit founder, Saint Ignatius of Loyola, and is a member of the Association of Jesuit Colleges and Universities."
         },
         {
           "yaw": -0.4840891067404005,
           "pitch": 0.26510415803516096,
           "title": "Tulane University",
-          "text": "Text"
+          "text": "Founded as the Medical College of Louisiana in 1834 by a cohort of medical doctors, The Tulane University of Louisiana is a private research university in New Orleans.  The Tulane University School of Law and the Tulane University School of Medicine are, respectively, the 12th oldest law school and 15th oldest medical school in the United States."
         },
         {
           "yaw": -2.6977078451717453,
