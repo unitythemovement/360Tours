@@ -226,9 +226,9 @@ var APP_DATA = {
           "text": "New Orleans Museum of Art is the city’s oldest find arts institution.  It opened on December 16, 1911, with only nine works of art.  Today, the museum hosts an impressive permanent collection of more than 40,000 objects.  The collection, noted for its extraordinary strengths in French and American art, photography, glass, and African and Japanese works, continues to grow."
         },
 {
-  "yaw": 3.14,
+  "yaw": 2.14,
   "pitch": 0.18,
-  "title": "City Park Rear View",
+  "title": "New Orleans City Park",
   "text": "At 1300 acres, New Orleans City Park is the 87th largest and 20th-most-visited urban public park in the United States.  It is approximately 50% larger than Central Park in New York City.  City Park holds the world's largest collection of mature live oak trees, some older than 600 years in age. The park was founded in 1854, making it the 48th oldest park in the country."
 }
 
