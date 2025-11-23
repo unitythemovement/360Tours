@@ -227,7 +227,7 @@ var APP_DATA = {
         },
 {
   "yaw": 2.84,
-  "pitch": 0.78,
+  "pitch": 0.58,
   "title": "New Orleans City Park",
   "text": "At 1300 acres, New Orleans City Park is the 87th largest and 20th-most-visited urban public park in the United States.  It is approximately 50% larger than Central Park in New York City.  City Park holds the world's largest collection of mature live oak trees, some older than 600 years in age. The park was founded in 1854, making it the 48th oldest park in the country."
 }
