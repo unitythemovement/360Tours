@@ -223,8 +223,15 @@ var APP_DATA = {
           "yaw": 0.027689155624827322,
           "pitch": 0.37059610492799777,
           "title": "New Orleans Museum of Art",
-          "text": "<p class=\"MsoNormal\">New Orleans Museum of Art is the city’s oldest fine arts\ninstitution.&nbsp; It opened on&nbsp;December\n16, 1911&nbsp;with only nine works of art. Today, the museum hosts an\nimpressive permanent collection of more than 40,000 objects. The collection,\nnoted for its extraordinary strengths\nin&nbsp;French&nbsp;and&nbsp;American&nbsp;art, photography, glass, and African\nand&nbsp;Japanese works, continues to expand and grow.<o:p></o:p></p>"
+          "text": "New Orleans Museum of Art is the city’s oldest find arts institution.  It opened on December 16, 1911, with only nine works of art.  Today, the museum hosts an impressive permanent collection of more than 40,000 objects.  The collection, noted for its extraordinary strengths in French and American art, photography, glass, and African and Japanese works, continues to grow."
         }
+{
+  "yaw": 3.14,
+  "pitch": 0.18,
+  "title": "City Park Rear View",
+  "text": "City Park is one of the nation’s oldest urban parks, known for its expansive live oaks, scenic lagoons, and cultural landmarks. The rear view highlights the park’s vast green spaces and natural beauty."
+}
+
       ]
     }
   ],
