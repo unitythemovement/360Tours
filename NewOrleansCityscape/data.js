@@ -139,7 +139,7 @@ var APP_DATA = {
         },
         {
           "yaw":0.1842,
-          "pitch":-0.0399,
+          "pitch":-0.15,
           "title":"Crescent City Connection",
           "text":"Formerly the Greater New Orleans Bridge..."
         }
