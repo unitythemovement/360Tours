@@ -129,7 +129,7 @@ var APP_DATA = {
           "yaw":0.013,
           "pitch":0.136,
           "title":"Caesars Superdome",
-          "text":"Opened as the Louisiana Superdome in 1975..."
+          "text":"Opened as the Louisiana Superdome in 1975, its steel frame covers a 13-arcre expanse and 680 ft. diameter, making it the largest fixed domed structure in the world.  Home of the New Orleans Saints (NFL)."
         },
         {
           "yaw":0.792,
@@ -141,7 +141,7 @@ var APP_DATA = {
           "yaw":0.1842,
           "pitch":-0.15,
           "title":"Crescent City Connection",
-          "text":"Formerly the Greater New Orleans Bridge..."
+          "text":"Formerly the Greater New Orleans Bridge (shown here in the distance glowing red arches), The Crescent City Connection is a pair of cantilever bridges that carry U.S. Highway 90 Business over the Mississippi River in New Orleans, USA.  They are tied as the fifth-longest cantilever bridges in the world."
         }
       ]
     }
