@@ -20,25 +20,25 @@ var APP_DATA = {
           "yaw": -1.997901004256951,
           "pitch": 0.02876451237494848,
           "title": "Crescent City Connection",
-          "text": "Formerly the Greater New Orleans Bridge..."
+          "text": "Formerly the Greater New Orleans Bridge, The Crescent City Connection is a pair of cantilever bridges that carry U.S. Highway 90 Business over the Mississippi River in New Orleans, Louisiana.  They are tied as the fifth-longest cantilever bridges in the world."
         },
         {
           "yaw": 0.04,
           "pitch": 0.37263,
           "title": "Canal Street",
-          "text": "Canal Street is a major thoroughfare..."
+          "text": "Canal Street is a major thoroughfare in the New Orleans which began as a planned, but unbuilt canal (1807) intended to link the Mississippi River and Lake Pontchartrain. With the influx of Americans after the Louisiana Purchase, Canal Street became the separation line between Creole New Orleans (French Quarter) and the American Sector (Business District)  "
         },
         {
           "yaw": 2.51795,
           "pitch": 0.12294,
           "title": "Algiers Point",
-          "text": "Algiers was established in 1719..."
+          "text": "Established in 1719, Algiers is the second-oldest neighborhood in New Orleans. It is the only Orleans Parish community located on the West Bank of the Mississippi River."
         },
         {
           "yaw": 0.85,
           "pitch": 0.15,
           "title": "French Quarter",
-          "text": "The French Quarter is the oldest neighborhood..."
+          "text": "The French Quarter is the oldest neighborhood in New Orleans.  It is famous for its vibrant nightlife and colorful buildings with cast-iron balconies.  Crowd-pleasing Bourbon Street features jazz clubs, Cajun eateries, and raucous bars serving potent cocktails.  Street performers gather near Jackson Square to entertain crowds in front of St. Louis Cathedral."
         }
       ]
     },
@@ -60,12 +60,12 @@ var APP_DATA = {
         {
           "yaw":-0.6862,"pitch":0.2090,
           "title":"The University of New Orleans",
-          "text":"The University of New Orleans is a public research university..."
+          "text":"The University of New Orleans is a public research university, and one of two doctoral research universities in the Greater New Orleans region.  UNO's 195-acre main campus is located on the shores of Lake Pontchartrain in Gentilly, New Orleans."
         },
         {
           "yaw":2.02289,"pitch":0.1643,
           "title":"Lake Pontchartrain",
-          "text":"Lake Pontchartrain is an estuary located in southeastern Louisiana..."
+          "text":"Lake Pontchartrain is an estuary located in southeastern Louisiana. It covers 630 square miles with an average depth of 12-14 feet. The estuary is crossed by Lake Pontchartrain Causeway, the longest continuous bridge over water in the world. Because of its narrow opening to the Gulf of Mexico, Lake Pontchartrain is not a lake, but an estuary, containing both fresh and saltwater. "
         }
       ]
     },
@@ -104,8 +104,8 @@ var APP_DATA = {
       "initialViewParameters":{"yaw":-0.0134,"pitch":0.0890,"fov":1.2599},
       "linkHotspots":[{"yaw":0.4172,"pitch":-0.1154,"rotation":3.14159,"target":"0-sunrise-over-nola---riverwalk-360"}],
       "infoHotspots":[
-        {"yaw":0.0276,"pitch":0.3705,"title":"New Orleans Museum of Art","text":"Located in City Park..."},
-        {"yaw":2.84,"pitch":0.38,"title":"New Orleans City Park","text":"At 1300 acres..."}
+        {"yaw":0.0276,"pitch":0.3705,"title":"New Orleans Museum of Art","text":"Located in City Park, New Orleans Museum of Art is the oldest fine arts museum in the city of New Orleans. The permanent collection at the museum features more than 40,000 objects spanning 5,000 years of art.  Other holdings include collections of glass, ceramics, Native American Art, Central American art from pre-Columbian and Spanish eras, and more."},
+        {"yaw":2.84,"pitch":0.38,"title":"New Orleans City Park","text":"At 1300 acres, New Orleans City Park is approximately 50% bigger than Central Park in New York City.  It holds the world's largest collection of mature live oak trees, some older than 600 years in age.  The park was founded in 1854, making it the 48th oldest park in the United States."}
       ]
     },
 

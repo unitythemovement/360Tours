@@ -857,3 +857,13 @@ body.view-control-buttons .viewControlButton {
   display: block !important;
   line-height: 1.4 !important;
 }
+
+/* Allow hotspot descriptions to wrap correctly */
+.info-hotspot-text,
+.info-hotspot .text,
+.info-hotspot-modal .info-hotspot-text {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  line-height: 1.4 !important;
+}
