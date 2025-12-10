@@ -829,3 +829,19 @@ body.view-control-buttons .viewControlButton {
   margin-left: 105px;
 }
 
+/* --- FIX: Allow full multiline description text in info hotspots --- */
+.info-hotspot .info-hotspot-text,
+.info-hotspot-modal .info-hotspot-text {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  line-height: 1.4 !important;
+}
+
+/* Fix title clipping */
+.info-hotspot .info-hotspot-title,
+.info-hotspot-modal .info-hotspot-title {
+  white-space: normal !important;
+  text-overflow: unset !important;
+  overflow: visible !important;
+}
