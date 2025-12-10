@@ -845,3 +845,15 @@ body.view-control-buttons .viewControlButton {
   text-overflow: unset !important;
   overflow: visible !important;
 }
+
+/* --- GLOBAL FIX TO STOP TRUNCATING ALL HOTSPOT DESCRIPTIONS --- */
+.info-hotspot .text,
+.info-hotspot-text,
+.info-hotspot-modal .info-hotspot-text {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  height: auto !important;
+  display: block !important;
+  line-height: 1.4 !important;
+}
