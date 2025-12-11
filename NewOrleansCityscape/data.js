@@ -84,9 +84,9 @@ var APP_DATA = {
       "initialViewParameters":{"yaw":0.28319,"pitch":0.3460,"fov":1.2599},
       "linkHotspots":[{"yaw":0.8019,"pitch":-0.1341,"rotation":3.14159,"target":"0-sunrise-over-nola---riverwalk-360"}],
       "infoHotspots":[
-        {"yaw":0.0899,"pitch":0.6350,"title":"Loyola University","text":"Loyola University New Orleans..."},
-        {"yaw":-0.4840,"pitch":0.2651,"title":"Tulane University","text":"Founded as the Medical College of Louisiana..."},
-        {"yaw":-2.6977,"pitch":0.1828,"title":"Audubon Park","text":"At roughly 350 acres..."}
+        {"yaw":0.0899,"pitch":0.6350,"title":"Loyola University","text":"Established in 1904, Loyola University New Orleans is a private Jesuit university. It was chartered as a university in 1912. "},
+        {"yaw":-0.4840,"pitch":0.2651,"title":"Tulane University","text":"Founded as the Medical College of Louisiana in 1834 by a cohort of medical doctors, The Tulane University of Louisiana is public university which operates the Tulane University School of Law and the Tulane University School of Medicine, the 12th oldest law school and 15th oldest medical school in the United States."},
+        {"yaw":-2.6977,"pitch":0.1828,"title":"Audubon Park","text":"At roughly 350 acres, Audubon Park is approximately six miles west of New Orleans city center in the Uptown neighborhood.  It is bordered on one side by the Mississippi River, and on the other side by St. Charles Avenue, directly across from Loyola University and Tulane University."}
       ]
     },
 
