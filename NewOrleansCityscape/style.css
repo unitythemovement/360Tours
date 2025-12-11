@@ -867,3 +867,14 @@ body.view-control-buttons .viewControlButton {
   text-overflow: unset !important;
   line-height: 1.4 !important;
 }
+
+/* Universal fix: allow ALL hotspot description boxes to auto-expand */
+.info-hotspot .info-hotspot-text,
+.info-hotspot-modal .info-hotspot-text {
+  max-height: none !important;   /* remove height limits */
+  height: auto !important;        /* grow to fit text */
+  overflow: visible !important;   /* prevent cropping */
+  white-space: normal !important; /* allow full multi-line text */
+  line-height: 1.4 !important;    /* clean readable spacing */
+}
+
