@@ -26,7 +26,7 @@ var APP_DATA = {
           "yaw": 0.04,
           "pitch": 0.37263,
           "title": "Canal Street",
-          "text": "Canal Street is a major thoroughfare in the New Orleans which began as a planned, but unbuilt canal (1807) intended to link the Mississippi River and Lake Pontchartrain. With the influx of Americans after the Louisiana Purchase, Canal Street became the separation line between Creole New Orleans (French Quarter) and the American Sector (Business District)  "
+          "text": "Canal Street is a major thoroughfare in New Orleans which began as a planned, but unbuilt canal (1807) intended to link the Mississippi River and Lake Pontchartrain. With the influx of Americans after the Louisiana Purchase, Canal Street became the separation line between Creole New Orleans (French Quarter) and the American Sector (Business District)  "
         },
         {
           "yaw": 2.51795,
