@@ -122,12 +122,15 @@
 
     <!-- IMAGE GRID (ORDER CONFIRMED) -->
     <div class="image-grid">
- <img src="gallery/Superdome180.jpg" onclick="openLightbox(0)">
-        <img src="gallery/CityPark.jpg" onclick="openLightbox(0)">
-        <img src="gallery/NolaAtNightRiverwalk.jpg" onclick="openLightbox(1)">
-        <img src="gallery/SunriseOverNolaRiverwalk.jpg" onclick="openLightbox(2)">
-        <img src="gallery/SunriseOverTulane.jpg" onclick="openLightbox(3)">
-        <img src="gallery/SunsetAtUNO.jpg" onclick="openLightbox(4)">
+ <div class="image-grid">
+    <img src="gallery/Superdome180.jpg">
+    <img src="gallery/CityPark.jpg">
+    <img src="gallery/NolaAtNightRiverwalk.jpg">
+    <img src="gallery/SunriseOverNolaRiverwalk.jpg">
+    <img src="gallery/SunriseOverTulane.jpg">
+    <img src="gallery/SunsetAtUNO.jpg">
+</div>
+
     </div>
 
 <script>
@@ -156,6 +159,14 @@ let swipeStartX = 0;
 
 const lb = document.getElementById('lightbox');
 const img = document.getElementById('lightbox-img');
+const thumbs = document.querySelectorAll('.image-grid img');
+let currentIndex = 0;
+thumbs.forEach((thumb, index) => {
+    thumb.addEventListener('click', () => {
+        openLightbox(index);
+    });
+});
+
 
 function updateTransform() {
     img.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
@@ -171,7 +182,7 @@ function showImage(index, fade) {
     updateTransform();
 
     if (fade) img.style.opacity = 0;
-    img.src = images[currentIndex];
+img.src = thumbs[currentIndex].src;
 
     if (fade) {
         requestAnimationFrame(() => {
