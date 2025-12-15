@@ -129,8 +129,6 @@
     <img src="gallery/SunsetAtUNO.jpg">
 </div>
 
-    </div>
-
 <script>
 
 let currentIndex = 0;
@@ -149,7 +147,6 @@ let swipeStartX = 0;
 const lb = document.getElementById('lightbox');
 const img = document.getElementById('lightbox-img');
 const thumbs = document.querySelectorAll('.image-grid img');
-let currentIndex = 0;
 thumbs.forEach((thumb, index) => {
     thumb.addEventListener('click', () => {
         openLightbox(index);
@@ -195,13 +192,13 @@ function closeLightbox() {
 
 /* NEXT / PREVIOUS with fade */
 function nextImage() {
-    const next = (currentIndex + 1) % images.length;
-    showImage(next, true);   // fade on swipe
+    const next = (currentIndex + 1) % thumbs.length;
+    showImage(next, true);
 }
 
 function prevImage() {
-    const prev = (currentIndex - 1 + images.length) % images.length;
-    showImage(prev, true);   // fade on swipe
+    const prev = (currentIndex - 1 + thumbs.length) % thumbs.length;
+    showImage(prev, true);
 }
 
 /* Prevent right-click save */
