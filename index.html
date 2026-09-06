@@ -1,78 +1,267 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>360° Tours</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #111;
-            color: #fff;
-            margin: 0; padding: 20px;
-        }
-        h1 { text-align: center; }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
-        .item {
-            background: #222;
-            padding: 10px;
-            border-radius: 10px;
-            text-align: center;
-            transition: 0.3s;
-        }
-        .item:hover {
-            background: #333;
-            transform: scale(1.03);
-        }
-img {
-    width: 75%;
-    border-radius: 10px;
-    display: block;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>360° Virtual Tours</title>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b0b0d;
+    color: #fff;
+  }
+
+  .hero {
+    padding: 52px 20px 24px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: linear-gradient(
+      to bottom,
+      rgba(11,11,13,.98),
+      rgba(11,11,13,.88),
+      rgba(11,11,13,0)
+    );
+    backdrop-filter: blur(6px);
+  }
+
+  .hero h1 {
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 4.4rem);
+    letter-spacing: .02em;
+  }
+
+  .hero p {
+    max-width: 900px;
+    margin: 12px auto 0;
+    font-size: clamp(1rem, 2vw, 1.35rem);
+    line-height: 1.45;
+    color: #ddd;
+  }
+
+  .toolbar {
+    max-width: 1400px;
     margin: 0 auto;
-}
+    padding: 10px 20px 24px;
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
-.item {
-    padding: 8px;
-}
-        a {
-            color: #fff;
-            text-decoration: none;
-        }
+  .toolbar .count {
+    color: #aaa;
+    font-size: .95rem;
+  }
 
-    </style>
+  .toolbar input {
+    width: min(420px, 100%);
+    padding: 13px 16px;
+    border-radius: 999px;
+    border: 1px solid #303039;
+    background: #17171c;
+    color: #fff;
+    outline: none;
+    font-size: 1rem;
+  }
+
+  .grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+  }
+
+  .card {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #17171c;
+    border: 1px solid #26262d;
+    transform: translateY(0);
+    transition:
+      transform .18s ease,
+      border-color .18s ease,
+      box-shadow .18s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    border-color: #555;
+    box-shadow: 0 14px 35px rgba(0,0,0,.35);
+  }
+
+  .thumb {
+    aspect-ratio: 16 / 10;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    background: #222;
+  }
+
+.meta {
+    padding: 16px 18px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .card-text {
+    min-width: 0;
+  }
+
+  .meta h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    letter-spacing: 0.04em;
+  }
+
+  .meta p {
+    margin: 7px 0 0;
+    color: #aaa;
+    font-size: .85rem;
+    letter-spacing: 0.08em;
+  }
+
+  .card-arrow {
+    font-size: 1.5rem;
+    line-height: 1;
+    flex-shrink: 0;
+    opacity: 0.9;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  @media (max-width: 600px) {
+    .hero {
+      position: static;
+      padding-top: 34px;
+    }
+
+    .toolbar {
+      padding-top: 0;
+    }
+
+    .toolbar input {
+      width: 100%;
+    }
+
+    .grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .card {
+      border-radius: 14px;
+    }
+  }
+</style>
 </head>
+
 <body>
 
-<h1>360° Virtual Tours</h1>
-<p style="text-align:center; font-size:26px; color:#fff; margin-top:-10px; margin-bottom:25px;">
-    Select a city below to explore its 360° Interactive Tour. Inside each tour, click the Menu button in the top left corner to explore different scenes, available prints, and more.
-</p>
+<header class="hero">
+  <h1>360° Virtual Tours</h1>
+  <p>
+    Select a city below to explore its 360° Interactive Tour.
+    Inside each tour, use the Menu to explore different scenes,
+    available prints, and more.
+  </p>
+</header>
 
-<div class="grid">
+<section class="toolbar">
+  <div class="count" id="count">2 locations</div>
+  <input
+    id="search"
+    type="search"
+    placeholder="Search cities…"
+    aria-label="Search cities"
+  >
+</section>
 
-    <div class="column">
+<main class="grid" id="tourGrid">
 
-        <!-- Marzipano Tour -->
-        <a href="NewOrleansCityscape/index.html">
-            <div class="item">
-                <img src="Thumbnails/NolaSuperdomecoverphotoonly.jpg" alt="New Orleans 360 Interactive Experience">
-                <h3>New Orleans 360 Experience</h3>
-            </div>
-        </a>
-
-<!-- Cincinnati Marzipano Tour -->
-<a href="CincinnatiCityscape/index.html">
-    <div class="item">
-        <img src="Thumbnails/CincyCover.jpg" alt="Cincinnati 360 Interactive Experience">
-        <h3>Cincinnati 360 Experience</h3>
-    </div>
-</a>
-    </div>
-
+  <a
+    class="card"
+    href="NewOrleansCityscape/index.html"
+    data-city="New Orleans Louisiana NOLA"
+  >
+    <img
+      class="thumb"
+      src="Thumbnails/NolaSuperdomecoverphotoonly.jpg"
+      alt="New Orleans 360 Interactive Experience"
+    >
+<div class="meta">
+  <div class="card-text">
+    <h2>NEW ORLEANS</h2>
+    <p>360° INTERACTIVE TOUR</p>
+  </div>
+  <div class="card-arrow">❯</div>
 </div>
+  </a>
+
+  <a
+    class="card"
+    href="CincinnatiCityscape/index.html"
+    data-city="Cincinnati Ohio Cincy"
+  >
+    <img
+      class="thumb"
+      src="Thumbnails/CincyCover.jpg"
+      alt="Cincinnati 360 Interactive Experience"
+    >
+<div class="meta">
+  <div class="card-text">
+    <h2>CINCINNATI</h2>
+    <p>360° INTERACTIVE TOUR</p>
+  </div>
+  <div class="card-arrow">❯</div>
+</div>
+  </a>
+
+</main>
+
+<script>
+  const search = document.getElementById('search');
+  const cards = [...document.querySelectorAll('.card')];
+  const count = document.getElementById('count');
+
+  search.addEventListener('input', () => {
+    const q = search.value.trim().toLowerCase();
+    let visible = 0;
+
+    cards.forEach(card => {
+      const match = card.dataset.city.toLowerCase().includes(q);
+      card.classList.toggle('hidden', !match);
+
+      if (match) {
+        visible++;
+      }
+    });
+
+    count.textContent =
+      `${visible} location${visible === 1 ? '' : 's'}`;
+  });
+</script>
 
 </body>
 </html>
