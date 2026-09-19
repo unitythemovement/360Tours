@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-dji_20260916064608_0044_d",
-      "name": "DJI_20260916064608_0044_D",
+      "name": "Panama City Beach Florida",
       "levels": [
         {
           "tileSize": 256,
