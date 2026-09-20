@@ -828,3 +828,12 @@ body.view-control-buttons .viewControlButton {
 .viewControlButton-6 {
   margin-left: 105px;
 }
+
+/* Keep scene menu above panorama */
+#sceneListToggle {
+  z-index: 1000;
+}
+
+#sceneList {
+  z-index: 999;
+}
