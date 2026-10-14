@@ -163,6 +163,158 @@ var APP_DATA = {
           "text": "Started by Frenchman Nicholas Langlois in 1703, when Mobile was the capital of Louisiana: beginning two and half weeks before Fat Tuesday, Mobile comes to life as the oldest Carnival celebration in the United States begins.<div><br></div><div>This experience was captured as Fat Tuesday gave way to Ash Wednesday during the early hours of February 18, February 2026.</div>"
         }
       ]
+    },
+    {
+      "id": "0-dolly-parton-360",
+      "name": "Dolly Parton 360",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3000,
+      "initialViewParameters": {
+        "yaw": -0.20280630939635103,
+        "pitch": 0.07339022705806642,
+        "fov": 1.2599180821480807
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.7032987998548919,
+          "pitch": -0.09110057426221552,
+          "rotation": 3.141592653589793,
+          "target": "1-downtown-mobile-al"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.015530983532151765,
+          "pitch": 0.38835061941544424,
+          "title": "The Dolly Parton Bridge",
+          "text": "<span style=\"font-size:11.0pt;line-height:107%;\nfont-family:&quot;Aptos&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:\nAptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;\nmso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">The\nGeneral W.K. Wilson Jr. Bridge, more commonly known locally as the \"Dolly\nParton Bridge\", carries&nbsp;</span><span style=\"font-size:11.0pt;line-height:107%;\nfont-family:&quot;Aptos&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:\nAptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;\nmso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">four lanes of I65 traffic across the Mobile-Tensaw River Delta\nnortheast of Mobile, Alabama.</span><div><span style=\"font-size:11.0pt;line-height:107%;\nfont-family:&quot;Aptos&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:\nAptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;\nmso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\"><br></span></div><div><span style=\"font-size:11.0pt;line-height:107%;\nfont-family:&quot;Aptos&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:\nAptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;\nmso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\"><span style=\"font-size: 11pt; line-height: 107%;\">It spans a distance of 6.08 miles (10 km) over the delta, making it, along with\nthe Jubilee Parkway across Mobile Bay to its south, among the longest bridges\nin the nation.</span></span></div><div><span style=\"font-size:11.0pt;line-height:107%;\nfont-family:&quot;Aptos&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:\nAptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;\nmso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\"><span style=\"font-size: 11pt; line-height: 107%;\"><br></span></span></div><div><span style=\"font-size:11.0pt;line-height:107%;\nfont-family:&quot;Aptos&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:\nAptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;\nmso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\"><span style=\"font-size: 11pt; line-height: 107%;\"><p class=\"MsoNormal\">The bridge has red aircraft warning lights atop the parallel\nsupport arches which, when combined with the shape of the supporting arches, have caused the bridge to\ngain the nickname \"Dolly Parton Bridge\".</p></span></span></div>"
+        }
+      ]
+    },
+    {
+      "id": "1-africatown-welcome-center-360",
+      "name": "Africatown Welcome Center 360",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3000,
+      "initialViewParameters": {
+        "yaw": -0.8939566127510474,
+        "pitch": 0.3608843619731825,
+        "fov": 1.2599180821480807
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.7702419421609363,
+          "pitch": -0.06386744709188363,
+          "rotation": 3.141592653589793,
+          "target": "2-africatown-bridge"
+        },
+        {
+          "yaw": -0.38965941446913277,
+          "pitch": -0.10269662600691731,
+          "rotation": 3.141592653589793,
+          "target": "1-downtown-mobile-al"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.12452745279333577,
+          "pitch": 0.29096533394283064,
+          "title": "Africatown Welcome Center",
+          "text": "<span style=\"font-size:11.0pt;line-height:107%;\nfont-family:&quot;Aptos&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:\nAptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;\nmso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">Africatown,\nalso known as AfricaTown USA and Plateau, is a historic community located three\nmiles north of downtown Mobile, Alabama. It was formed by a group of 32 West\nAfricans, who in 1860 were bought and transported against their will in the\nlast known illegal shipment of slaves to the United States.</span><div><span style=\"font-size:11.0pt;line-height:107%;\nfont-family:&quot;Aptos&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:\nAptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;\nmso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\"><br></span></div><div><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\">The Atlantic slave trade had been banned since 1808, but 110 slaves held by the\nKingdom of Dahomey were smuggled into Mobile on the Clotilda, which was burned\nand scuttled to try to conceal its illicit cargo. More than 30 of these people,\nbelieved to be ethnic Yoruba, Ewe, and Fon, founded and created their own\ncommunity in what became Africatown.</span></div><div><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"><br></span></div><div><span style=\"font-size:11.0pt;line-height:107%;\nfont-family:&quot;Aptos&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:\nAptos;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;\nmso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;\nmso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA\">They\nretained their West African customs and language into the 1950s, while their\nchildren and some elders also learned English. Cudjo Kazoola Lewis, a founder\nof Africatown, lived until 1935 and was long thought to be the last survivor of\nthe slaves from the Clotilda living in Africatown.</span><span style=\"font-family: Aptos, sans-serif; font-size: 11pt;\"></span></div>"
+        },
+        {
+          "yaw": -2.642730610970336,
+          "pitch": 0.09440499968990679,
+          "title": "Union Baptist Church",
+          "text": "<p class=\"MsoNormal\">Organized in 1869 as the Old Landmark Baptist Church by Rev.\nHenry McCrea and the survivors of the slave ship, Clotilda: Pollee Allen, Rose\nAllen, Katie Cooper, Anna Keeby, Ossa Keeby, Josephina Lee, Peter Lee, Charles\nLewis, Celia Lewis, Cudjo Lewis, Zuma Livingstone, and Clara Turner.<o:p></o:p></p><p class=\"MsoNormal\"><br></p>\n\n<p class=\"MsoNormal\">The first pastor was Henry Watson. The Church evolved from\nhistoric Stone Street Baptist Church and was built on the location known as the\nPraying Ground. In 1903, it was renamed Union Baptist Church. A sanctuary was\nconstructed in 1918 and served as the first school for Magazine Point,\npresently known as AfricaTown.<o:p></o:p></p><p class=\"MsoNormal\"><br></p>\n\n<p class=\"MsoNormal\">The African roots continue to nourish the spirit of this\ncommunity.<o:p></o:p></p>"
+        }
+      ]
+    },
+    {
+      "id": "2-africatown-bridge",
+      "name": "Africatown Bridge",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3000,
+      "initialViewParameters": {
+        "yaw": -0.8138933348585873,
+        "pitch": 0.0865048742670993,
+        "fov": 1.2599180821480807
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.07389355610650661,
+          "pitch": -0.08697290435155658,
+          "rotation": 3.141592653589793,
+          "target": "1-downtown-mobile-al"
+        }
+      ],
+      "infoHotspots": []
     }
   ],
   "name": "Project Title",
