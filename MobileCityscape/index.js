@@ -386,7 +386,22 @@
     return null;
   }
 
-  // Display the initial scene.
-  switchScene(scenes[0]);
+  // Open a destination directly with ?scene=EXACT-SCENE-ID.
+  // Missing, unknown, or malformed values fall back to the first scene.
+  function getInitialScene() {
+    var match = /(?:^|[?&])scene=([^&]*)/.exec(window.location.search);
+    if (match) {
+      try {
+        var id = decodeURIComponent(match[1].replace(/\+/g, ' '));
+        return findSceneById(id) || scenes[0];
+      } catch (error) {
+        return scenes[0];
+      }
+    }
+    return scenes[0];
+  }
+
+  // Display the requested destination, or the normal first scene.
+  switchScene(getInitialScene());
 
 })();
